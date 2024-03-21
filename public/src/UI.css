@@ -1,0 +1,13 @@
+.MtextBox{
+    border: 2px solid;
+    border-radius: 5px;
+    width: 90%;
+    position: absolute;
+    left: 5%;
+    top: 80%;
+}
+
+.Mtext{
+    padding-right: 2%;
+    padding-left: 2%;
+}
