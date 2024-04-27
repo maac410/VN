@@ -5,9 +5,30 @@
     position: absolute;
     left: 5%;
     top: 80%;
+    background-color: white;
+    cursor: pointer; /* Change cursor to pointer when hovering */
+    display: inline-block; /* Display as inline-block to allow click */
+}
+
+.Choice1{
+    border: 2px solid gray;
+    border-radius: 5px;
+    width: 30%;
+    height: 5%;
+    position: absolute;
+    right: 5%;
+    top: 70%;
+    color: white;
+    background-color: black;
 }
 
 .Mtext{
     padding-right: 2%;
     padding-left: 2%;
+}
+
+.Background{
+    display: block;
+    width: 100%;
+    height: auto;
 }
