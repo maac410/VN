@@ -1,11 +1,12 @@
 .MtextBox{
-    border: 2px solid;
-    border-radius: 5px;
-    width: 90%;
+    width: 90%; /* Width of the box */
+    height: 10%; /* Height of the box */
+    background-color: #f0f0f0; /* Background color of the box */
+    border: 2px solid #333; /* Border of the box */
+    padding: 5px;
     position: absolute;
     left: 5%;
     top: 80%;
-    background-color: white;
     cursor: pointer; /* Change cursor to pointer when hovering */
     display: inline-block; /* Display as inline-block to allow click */
 }
